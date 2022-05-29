@@ -11,7 +11,6 @@ const dotenv = require('dotenv');
 
 // 載入 config.env 檔案
 dotenv.config({ path: './config.env' });
-console.log(process.env.PORT);
 
 // mongodb+srv://learn_mongoDB:<password>@cluster0.crbep.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 const DB = process.env.DATABASE.replace(
